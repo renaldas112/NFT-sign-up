@@ -1,0 +1,70 @@
+html,
+body {
+  min-height: 100%;
+  background-color: black;
+}
+
+.background-colored {
+  background: url(./img/Psycho_Deliverance_stunning_interpretation_in_maximum_ultraphot_446d4691-7105-4a44-86a3-5689e11864cb-gigapixel-art-scale-6_00x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-section {
+  background-color: #171e2e;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+  background-color: #2a3342;
+  color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+textarea:focus { 
+  background-color: #2a3342;
+  outline: none !important;
+  border-color: #00ffa4;
+  box-shadow: 0 0 1px #00ffa4;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .form-section {
+    width: 100% !important;
+    margin: 0 !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .form-container-small {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0 !important;
+  }
+}

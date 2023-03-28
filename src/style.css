@@ -46,6 +46,11 @@ textarea:focus {
   width: 40% !important;
 }
 
+.btn-customised {
+  background-color: #00ffa4 !important;
+  font-size: 20px !important;
+}
+
 @media screen and (max-width: 768px) {
   main {
     -webkit-box-orient: vertical;

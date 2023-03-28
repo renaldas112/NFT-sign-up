@@ -8,22 +8,22 @@ function SignUpForm() {
     <main className="d-flex align-items-center background-colored ">
       <section className="form-section d-flex align-items-center flex-column justify-content-center mt-5 mx-auto rounded w-40 col-l-3">
         <img src={logo} className="logo my-4" alt="logo" />
-        <h2 className="text-center">
+        <h1 className="text-center">
           City Lights
           <br />
-          <h4 className="my-4 mx-2 text-center">
-            Experience the captivating beauty of urban landscapes through "City
-            Lights" NFT
-          </h4>
-        </h2>
+        </h1>
+        <h4 className="my-4 mx-2 text-center">
+          Experience the captivating beauty of urban landscapes through "City
+          Lights" NFT
+        </h4>
         <form
           autoComplete="off"
-          className="d-flex flex-column justify-content-center w-75"
+          className="d-flex flex-column flex-wrap justify-content-center text-center w-75"
         >
           <h4 className="my-3">Sign up and get ready!</h4>
           <div className="d-flex gap-5 justify-content-between form-container-small">
             <div className="mb-3">
-              <label className="form-label">First Name</label>
+              <label className="form-label">Full name</label>
               <input
                 type="text"
                 className="form-control"
@@ -31,17 +31,6 @@ function SignUpForm() {
                 required
               />
             </div>
-            <div className="mb-3">
-              <label className="form-label">Last Name</label>
-              <input
-                type="text"
-                className="form-control"
-                id="lastName"
-                required
-              />
-            </div>
-          </div>
-          <div className="d-flex gap-5 justify-content-between form-container-small">
             <div className="mb-3">
               <label className="form-label">Email address</label>
               <input
@@ -55,15 +44,6 @@ function SignUpForm() {
                 We'll never share your email <br />
                 with anyone else.
               </div>
-            </div>
-            <div className="mb-3">
-              <label className="form-label">Phone Number</label>
-              <input
-                type="number"
-                className="form-control"
-                id="phoneNumber"
-                required
-              />
             </div>
           </div>
           <div className="d-flex gap-5 justify-content-between form-container-small">
@@ -89,7 +69,7 @@ function SignUpForm() {
           <button
             id="submitButton"
             type="submit"
-            className="btn btn-primary my-5 w-40 mx-auto"
+            className="btn btn-customised my-5 p-2 w-40 mx-auto"
           >
             Create Account
           </button>
